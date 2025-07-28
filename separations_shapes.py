@@ -6,7 +6,7 @@ import os
 from datetime import datetime as dt
 
 #
-# separations_shapes.py <input_file> <body> <m or km> <min crater diam in km> <max crater diameter> <min lon> <max lon> <min lat> <max lat>
+# separations_shapes.py <input_file> <body> <m or km> <min crater diam> <max crater diameter> <min lon> <max lon> <min lat> <max lat>
 #
 
 # *******************************************************************
@@ -39,9 +39,9 @@ def filter_craters(crater_file, filtered_file, min_diam, max_diam, min_lon, max_
     
 
 
-# *******************************************************************
-# * Function to compute distance between two lat/lon points on Moon
-# *******************************************************************
+# ********************************************************************************
+# * Function to compute distance between two lat/lon points on a planetary surface
+# ********************************************************************************
 def separation( lon1, lat1, lon2, lat2, radius ):
 #    radius = 473       # Ceres mean radius in km
     lon1 = float(lon1)
