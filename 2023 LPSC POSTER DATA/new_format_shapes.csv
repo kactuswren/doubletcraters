@@ -1,0 +1,3 @@
+geometry,Feature:string,Label:string,Diff Erosion:boolean,Septum:boolean,Too eroded:boolean,Superposition:boolean,Diff Depth:boolean,Second Look:boolean,Radial Ejecta Lobes:boolean
+"LINESTRING (185.40201 -2.35158, 184.11501 -3.11477)",polyline,3-475,false,false,false,false,false,false,false
+"LINESTRING (159.3699 16.94447, 160.39377 17.78042)",polyline,21-729,,,,,,,
