@@ -1,0 +1,15 @@
+/Users/pwren/Dropbox/Py/working/separations_shapes.py
+07/01/2023 19:30:08
+
+Input file:            toyokawa_test_craters.csv
+Target body:           ceres
+Meters or kilometers:  m
+minimum diameter (km): 3
+maximum diameter (km): 15
+lower left:  0E, -30N
+upper right: 110E, 10N
+
+Summary:
+Total craters used:     840
+Total candidates found: 56
+End processing: 07/01/2023 19:30:09
