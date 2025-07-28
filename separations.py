@@ -65,7 +65,7 @@ for x in range (0, num_rows):
         lat2 = input_rows[y][1]
         sep = separation(lon1, lat1, lon2, lat2)
         #sep = float(int(sep*10)) / 10.0
-        print sep
+        print (sep)
         csvwriter.writerow([n1, lon1, lat1, n2, lon2, lat2, sep])
         if sep <= 100:
             binnable_sep.append(sep)
@@ -74,8 +74,8 @@ for x in range (0, num_rows):
 
 log_bins = np.logspace(0.0, 1.3, num=11)     # 10 bins across range from 0 to 20 km
 binned = np.histogram( binnable_sep, bins=log_bins)
-print " "
-print "Bin bounds:", binned[1]
-print " "
-print "Bin counts:", binned[0]
+print (" ")
+print ("Bin bounds:", binned[1])
+print (" ")
+print ("Bin counts:", binned[0])
 
