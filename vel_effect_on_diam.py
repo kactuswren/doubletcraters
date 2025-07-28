@@ -6,6 +6,9 @@ import math
 
 # **************************************************************************
 # * Function to compute estimated impactor diameter using crater scaling law
+# * from: Zahnle K. et al. (2003) Icarus, 163(2), 263-289, using assumed
+# * parameters for v, g, pp, and pt provided in Wren P. F. and Fevig R. A.
+# * (2017) LPS XXXXVIII. Abstract #2407. 
 # **************************************************************************
 def impact_diameter( crater_diameter, velocity ):
 
